@@ -11687,9 +11687,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-money-input-example@workspace:example":
+"react-native-money-format-input-example@workspace:example":
   version: 0.0.0-use.local
-  resolution: "react-native-money-input-example@workspace:example"
+  resolution: "react-native-money-format-input-example@workspace:example"
   dependencies:
     "@babel/core": ^7.20.0
     "@expo/metro-runtime": ~4.0.0
@@ -11699,14 +11699,14 @@ __metadata:
     react-dom: 18.3.1
     react-native: ^0.76.2
     react-native-builder-bob: ^0.32.1
-    react-native-money-input: ../react-native-money-input-0.0.0-local.1.tgz
+    react-native-money-format-input: ../react-native-money-format-input-0.0.0-local.1.tgz
     react-native-web: ~0.19.13
   languageName: unknown
   linkType: soft
 
-"react-native-money-input@file:../react-native-money-input-0.0.0-local.1.tgz::locator=react-native-money-input-example%40workspace%3Aexample":
+"react-native-money-format-input@file:../react-native-money-format-input-0.0.0-local.1.tgz::locator=react-native-money-format-input-example%40workspace%3Aexample":
   version: 0.0.0-local.1
-  resolution: "react-native-money-input@file:../react-native-money-input-0.0.0-local.1.tgz::locator=react-native-money-input-example%40workspace%3Aexample"
+  resolution: "react-native-money-format-input@file:../react-native-money-format-input-0.0.0-local.1.tgz::locator=react-native-money-format-input-example%40workspace%3Aexample"
   dependencies:
     expo: ^52.0.9
     fs-extra: ^10.1.0
@@ -11714,13 +11714,13 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: eff25545be34b6eb921274befc449fd78252dae7d5ed6db67594de64b7492216770fb04279857585a135e06ddfc510d88b73e933f72ad6862dd9183f0e1527b1
+  checksum: a66d53a5a1222d4df0f7d396f2bbe9f54f142d8bf7d766c9df32564bee662fa4c0e8bf469c224151e74b2a4ba72cb917f6f7348e0207f9d24a35de8fefc02be6
   languageName: node
   linkType: hard
 
-"react-native-money-input@workspace:.":
+"react-native-money-format-input@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-native-money-input@workspace:."
+  resolution: "react-native-money-format-input@workspace:."
   dependencies:
     "@commitlint/config-conventional": ^17.0.2
     "@evilmartians/lefthook": ^1.5.0

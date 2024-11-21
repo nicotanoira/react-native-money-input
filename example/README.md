@@ -1,4 +1,4 @@
-# react-native-money-input-example
+# react-native-money-format-input-example
 
 A demo/example for React Native Moeny Input component.
 For correct documentation guide:
@@ -18,22 +18,24 @@ nvm -v
 
 ## Installation
 
-!Note: For some reason had LOTS of trouble with NPM trying to connect example to the lib. With yarn was pretty seamless integration
+!Note: For some reason had LOTS of trouble with NPM trying to connect example to the lib. With yarn was pretty seamless integration.
+
+Watch out for package.json looking for the library. If the .tgz file already exists there won't be problems, if not, delete the line, create the pack then add it!
 
 ```sh
-yarn install // in react-native-money-input directory
-npm pack // in react-native-money-input directory -> this will build LIBRARY-0.0.0-local...etc
+yarn install // in react-native-money-format-input directory
+npm pack // in react-native-money-format-input directory -> this will build LIBRARY-0.0.0-local...etc
 cd example
-yarn add ../react-native-money-input-0.0.0-local.1.tgz // WATCH OUT FOR THE NAME, IT SHOULD BE TEMPORARY AND IT RESEMBLES THE package.json name of root drc
+yarn add ../react-native-money-format-input-0.0.0-local.1.tgz // WATCH OUT FOR THE NAME, IT SHOULD BE TEMPORARY AND IT RESEMBLES THE package.json name of root drc
 yarn start // Tried it with expo and works fine
 ```
 
 ## Usage
 
-Edits should be on react-native-money-input/src/index.tsx - NOT in example/
+Edits should be on react-native-money-format-input/src/index.tsx - NOT in example/
 
 ```js
-import MoneyInput from 'react-native-money-input';
+import MoneyInput from 'react-native-money-format-input';
 
 // ...
 

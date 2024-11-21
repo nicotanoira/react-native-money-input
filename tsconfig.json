@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-money-input": [
+      "react-native-money-format-input": [
         "./src/index"
       ]
     },

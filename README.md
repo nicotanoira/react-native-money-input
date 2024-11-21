@@ -1,4 +1,4 @@
-# react-native-money-input
+# react-native-money-format-input
 
 A customizable and user-friendly React Native component for real-time currency formatting in input fields. It supports formatting integers and decimals, along with optional currency symbols, and locale-aware number formatting.
 
@@ -9,9 +9,9 @@ A customizable and user-friendly React Native component for real-time currency f
 Install the library via npm or yarn:
 
 ```sh
-npm install react-native-money-input
+npm install react-native-money-format-input
 # or
-yarn add react-native-money-input
+yarn add react-native-money-format-input
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ Here’s a basic example demonstrating how to use the MoneyInput component:
 ```js
 import React, { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
-import MoneyInput from 'react-native-money-input';
+import MoneyInput from 'react-native-money-format-input';
 
 const App = () => {
   const [currencyValue, setCurrencyValue] = useState<number>(0);

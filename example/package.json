@@ -1,5 +1,5 @@
 {
-  "name": "react-native-money-input-example",
+  "name": "react-native-money-format-input-example",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-native": "^0.76.2",
-    "react-native-money-input": "../react-native-money-input-0.0.0-local.1.tgz",
+    "react-native-money-format-input": "../react-native-money-format-input-0.0.0-local.1.tgz",
     "react-native-web": "~0.19.13"
   },
   "devDependencies": {

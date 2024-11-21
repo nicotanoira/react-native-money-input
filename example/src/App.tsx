@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { StyleSheet, View, Text, SafeAreaView } from 'react-native';
-import MoneyInput from 'react-native-money-input';
+import MoneyInput from 'react-native-money-format-input';
 
 export default function App() {
   const [currencyValue, setCurrencyValue] = useState<number>(0);
