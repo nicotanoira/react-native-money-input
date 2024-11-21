@@ -1,6 +1,6 @@
 {
   "name": "react-native-money-format-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React Native component for real-time currency formatting in input fields.",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
