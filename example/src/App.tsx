@@ -24,8 +24,8 @@ export default function App() {
         setValue={currencyValueHandler}
         symbol="AR$" // $, €, ¥, £, ₹, ₽, ₺, $, zł, Kč, lei, ฿, ₪, ₱
         locale="es-AR"
-        defaultInteger="0000"
-        defaultFloat="000"
+        defaultInteger="1234567"
+        defaultFloat="89"
         currencySymbolStyle={styles.currencySymbol}
         intNumberStyle={styles.intNumber}
         floatNumberStyle={styles.floatNumber}
